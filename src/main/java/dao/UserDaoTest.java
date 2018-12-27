@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.datasource.SingleConnectionDataSource;
+import org.springframework.test.context.ContextConfiguration;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
@@ -16,7 +17,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 //@RunWith(SpringJUnit4ClassRunner.class)
-//@ContextConfiguration(locations = "/test-junit.xml")
+//@ContextConfiguration(locations = "test-applicationContext.xml")
 public class UserDaoTest {
 
     private User user1;
@@ -25,7 +26,7 @@ public class UserDaoTest {
     @Autowired
     private ApplicationContext context;
 
-    //    @Autowired
+//        @Autowired
     private UserDao dao;
 
     public static void main(String[] args) {

@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8516d945-1dd5-469c-afae-c25eb50139f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/JdbcContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/CalcSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/LineCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/numbers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/JdbcContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/JdbcContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/test-applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/test-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/test-applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/JdbcContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/JdbcContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/UserDao$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/UserDao$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/UserDao$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/UserDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/test-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/test-applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,41 +29,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/template/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            <state relative-caret-position="316">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#542#1046#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#260#477#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#682#899#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#1108#1304#0" expanded="true" />
+                <element signature="e#1303#1304#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-applicationContext.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/test-applicationContext.xml">
+      <file leaf-file-name="CalcSumTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/template/CalcSumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JdbcContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/JdbcContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="414">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +65,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -95,15 +96,20 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/test-applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/junit/junit.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/junit/JUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDaoDeleteAll.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/DeleteAllStatement.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/StatementStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/AddStatement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/test-applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/JdbcContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/test-applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/numbers.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/template/BufferedReaderCallback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/template/LineCallback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/template/CalcSumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/template/Calculator.java" />
       </list>
     </option>
   </component>
@@ -168,23 +174,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TobySpringTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TobySpringTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TobySpringTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TobySpringTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TobySpringTest" type="b2602c69:ProjectViewProjectNode" />
@@ -197,12 +187,6 @@
               <item name="TobySpringTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="TobySpringTest" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TobySpringTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TobySpringTest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest">
+  <component name="RunManager" selected="JUnit.CalcSumTest">
     <configuration name="UserDaoTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dao.UserDaoTest" />
       <module name="TobySpringTest" />
@@ -286,6 +270,52 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CalcSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TobySpringTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="template" />
+      <option name="MAIN_CLASS_NAME" value="template.CalcSumTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CalcSumTest.sumOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TobySpringTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="template" />
+      <option name="MAIN_CLASS_NAME" value="template.CalcSumTest" />
+      <option name="METHOD_NAME" value="sumOfNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="JUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TobySpringTest" />
@@ -356,29 +386,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserDaoTest.getUserFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TobySpringTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="getUserFailure" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -421,15 +428,17 @@
       <item itemvalue="Application.UserDaoTest" />
       <item itemvalue="JUnit.UserDaoTest" />
       <item itemvalue="JUnit.UserDaoTest.addAndGet" />
-      <item itemvalue="JUnit.UserDaoTest.getUserFailure" />
       <item itemvalue="JUnit.JUnitTest" />
+      <item itemvalue="JUnit.CalcSumTest.sumOfNumbers" />
+      <item itemvalue="JUnit.CalcSumTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalcSumTest" />
+        <item itemvalue="JUnit.CalcSumTest.sumOfNumbers" />
         <item itemvalue="JUnit.UserDaoTest" />
         <item itemvalue="JUnit.UserDaoTest.addAndGet" />
         <item itemvalue="JUnit.JUnitTest" />
-        <item itemvalue="JUnit.UserDaoTest.getUserFailure" />
       </list>
     </recent_temporary>
   </component>
@@ -446,44 +455,44 @@
       <workItem from="1545625113566" duration="617000" />
       <workItem from="1545626021637" duration="21191000" />
       <workItem from="1545803509871" duration="5568000" />
-      <workItem from="1545871541148" duration="7132000" />
+      <workItem from="1545871541148" duration="15144000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JUnitTest - 2018.12.26 at 15h 43m 26s.xml">
-      <configuration name="JUnitTest" configurationId="JUnit" />
+    <history-entry file="CalcSumTest_sumOfNumbers - 2018.12.27 at 17h 11m 29s.xml">
+      <configuration name="CalcSumTest.sumOfNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JUnitTest - 2018.12.26 at 17h 55m 08s.xml">
-      <configuration name="JUnitTest" configurationId="JUnit" />
+    <history-entry file="CalcSumTest_sumOfNumbers - 2018.12.27 at 17h 11m 37s.xml">
+      <configuration name="CalcSumTest.sumOfNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest - 2018.12.26 at 17h 55m 26s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
+    <history-entry file="CalcSumTest_sumOfNumbers - 2018.12.27 at 17h 15m 31s.xml">
+      <configuration name="CalcSumTest.sumOfNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest - 2018.12.26 at 17h 55m 45s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
+    <history-entry file="CalcSumTest_sumOfNumbers - 2018.12.27 at 17h 44m 00s.xml">
+      <configuration name="CalcSumTest.sumOfNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest - 2018.12.26 at 17h 57m 35s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
+    <history-entry file="CalcSumTest - 2018.12.27 at 17h 51m 06s.xml">
+      <configuration name="CalcSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest - 2018.12.26 at 17h 57m 44s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
+    <history-entry file="CalcSumTest - 2018.12.27 at 18h 18m 50s.xml">
+      <configuration name="CalcSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest - 2018.12.26 at 17h 58m 57s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
+    <history-entry file="CalcSumTest - 2018.12.27 at 18h 20m 15s.xml">
+      <configuration name="CalcSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest - 2018.12.26 at 17h 59m 06s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
+    <history-entry file="CalcSumTest - 2018.12.27 at 18h 20m 26s.xml">
+      <configuration name="CalcSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_addAndGet - 2018.12.27 at 11h 02m 36s.xml">
-      <configuration name="UserDaoTest.addAndGet" configurationId="JUnit" />
+    <history-entry file="CalcSumTest - 2018.12.27 at 18h 27m 25s.xml">
+      <configuration name="CalcSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_addAndGet - 2018.12.27 at 11h 03m 18s.xml">
-      <configuration name="UserDaoTest.addAndGet" configurationId="JUnit" />
+    <history-entry file="CalcSumTest - 2018.12.27 at 18h 27m 35s.xml">
+      <configuration name="CalcSumTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34508000" />
+    <option name="totallyTimeSpent" value="42520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="23" width="1388" height="877" extended-state="0" />
@@ -501,16 +510,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32655138" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32627645" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41505596" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4146949" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960325" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16570605" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21685879" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -583,11 +592,8 @@
           <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#542#1046#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#671#1175#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -658,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/junit/JUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -704,42 +703,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/StatementStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/DaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,44 +720,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/JdbcContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/DaoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <caret line="9" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="12" selection-end-column="11" />
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="425">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#542#1046#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#671#1175#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/test-applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/numbers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/StatementStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/JdbcContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#397#600#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/template/BufferedReaderCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/template/CalcSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/template/LineCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/template/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#260#477#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#682#899#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#1108#1304#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
